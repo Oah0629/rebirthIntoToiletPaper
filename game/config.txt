@@ -1,0 +1,6 @@
+Game_name:重生;
+Game_key:ec9ddcc81534c48;
+Title_img:bg_mainpage.png;
+Title_bgm:s_Title.mp3;
+Textbox_theme:imss;
+Package_name:hihi;
