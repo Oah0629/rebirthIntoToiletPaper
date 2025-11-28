@@ -1,7 +1,7 @@
 changeFigure: -left -next;
 changeFigure: -right -next;
 
-intro:你選擇無視官兒的異樣... -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+intro:你選擇無視官兒的異樣... -hold -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
 changeBg:bg_lonelyDie.png -next;
 :幾個月後，他將你誘入偏僻倉庫，反鎖。 -fontSize=large;
 :門外傳來他冰冷的聲音： -fontSize=large;
