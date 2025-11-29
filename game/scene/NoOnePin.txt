@@ -1,0 +1,16 @@
+;NoOnePin
+changeBg:wanping_room.png -next;
+changeFigure:wanping_freeze.png -next -transform={"scale":{"x":2.2,"y":2.2}};
+婉嬪: 原來如此……娘娘慎重，是好事。;
+changeFigure:none;
+:婉嬪開始暗中調查你。你的名字，也悄悄被記進她的「觀察名單」。;
+changeFigure:inger_serious.png -left;
+鸚哥:（悄聲）娘娘……婉嬪好像不太高興。;
+changeFigure:main_shock.png -right -transform={"scale":{"x":1.8,"y":1.8}};
+魏笙芷:……我是不是踩到什麼線，但不管了，一個婉嬪能造成什麼危害？;
+changeFigure: -left -next;
+changeFigure: -right -next;
+changeBg:kill_be.png -next;
+:次日，婉嬪心有怨恨，派人暗殺你。;
+intro:【死亡成就 : 怎麼有刀插在我身上】| -hold -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+end;

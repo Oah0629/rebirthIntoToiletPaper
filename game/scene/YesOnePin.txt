@@ -1,0 +1,7 @@
+;YesOnePin
+changeBg:wanping_room.png -next;
+changeFigure:wanping_smile.png -next -transform={"position":{"x":50},"scale":{"x":2.2,"y":2.2}};
+婉嬪:娘娘慧眼識人，日後有我在，至少不會讓人輕易欺負您。;
+changeFigure: -next;
+intro:你獲得第一個真正的盟友。  但宮裡的風暴……才剛開始吹起 -hold -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+changeScene:part4.txt;

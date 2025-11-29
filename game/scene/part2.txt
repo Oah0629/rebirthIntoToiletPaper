@@ -27,7 +27,7 @@ changeFigure:taijian/taijian.png -right -transform={"position":{"x":450,"y":100}
 changeFigure:none -right -next;
 changeFigure:none -left -next;
 （兩位女孩從門口走進來）;
-changeFigure:inger/inger_normal.png -left -next -id=inger;
+changeFigure:inger/inger_normal.png -left -next;
 鸚哥 :奴婢鸚哥，見過娘娘。|（忠心侍主、性格開朗，但偶爾會過於嘮叨。) -left;
 changeFigure:guan2/guan2_normal.png -right -next -transform={"position":{"y":100},"scale":{"x":1.1,"y":1.1}};
 官兒:奴婢官兒，請娘娘指教。|（處事聰慧、內心沉穩，但似乎並非單純角色） -right;

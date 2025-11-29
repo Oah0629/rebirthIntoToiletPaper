@@ -1,6 +1,5 @@
 intro:你選擇官兒作為你的侍從，|官兒一開始也非常盡責，努力的完成他的工作，|然而，從第三個月開始，|官兒時常會有一段時間消失，找不到他，|而你，也發現了帳本上的一些異常... -hold -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
 intro:某日，|官兒正在泡茶，而你正在書桌前閱讀著書籍... -hold -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
-changeFigure: -left -next;
 changeBg:bg_YongHoGung.png -next;
 changeFigure:guan2/guan2_normal.png -left -next -transform={"position":{"y":100}};
 changeFigure:f_main/f_main_wakeup_bigeye.png -right -next -transform={"position":{"y":100},"scale":{"x":0.9,"y":0.9}};

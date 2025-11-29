@@ -1,0 +1,15 @@
+
+changeFigure:none -next;
+changeBg:garden_night.png -next;
+changeFigure:xian_9.png -right -next -transform={"position":{"y":90}};
+changeFigure:main_9.png -left -next -transform={"position":{"x":100,"y":140},"scale":{"x":0.9,"y":0.9}};
+魏笙芷:貴妃娘娘德配天下，小女子自當敬上此杯。;
+changeFigure:none -right -next;
+changeFigure:xian_not_happy.png -right -next -transform={"position":{"y":90}};
+嫻貴妃:（原本準備的羞辱句塞回喉嚨）……算你識相。;
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:emperor_serious.png -next;
+皇帝:都別吵了，活動繼續。;
+changeFigure: -next;
+changeScene:part5.txt;

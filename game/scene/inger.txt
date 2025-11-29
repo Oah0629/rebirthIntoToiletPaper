@@ -1,6 +1,6 @@
 intro:某日，鸚哥正在幫你整理房間... -hold -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
 changeBg:bg_YongHoGung.png -next;
-changeFigure:inger/inger_normal.png -left -next -transform={"position":{"y":100},"scale":{"x":0.9,"y":0.9}};
+setTransform:{"position":{"y":100},"scale":{"x":0.9,"y":0.9}} -next -duration=0 -target=fig-left;
 changeFigure:f_main/f_main_wakeup_bigeye.png -right -next -transform={"position":{"y":100},"scale":{"x":0.9,"y":0.9}};
 鸚哥:娘娘您起床第一件事就該#)@(*&^*&^@#&(，|這樣才可以確保您的皮膚狀況保持在完美狀態 -left;
 然後#*(%*&#()@&^&#(!)(#*&^$*&@((@)&# -left;
@@ -19,4 +19,4 @@ choose:接受邀約:选择场景文件|心不甘情不願地接受邀約:选择�
 changeFigure:f_main/f_main_wakeup_bigeye.png -right -next -transform={"position":{"y":100},"scale":{"x":0.9,"y":0.9}};
 魏笙芷:好吧，那你幫我回覆一下吧 -right;
 鸚哥:好的娘娘，鸚哥這就去辦~;
-changeScene:选择场景文件;
+changeScene:part3.txt;

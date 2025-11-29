@@ -1,0 +1,13 @@
+;第三幕 — 風起的茶會
+changeFigure:none -left;
+changeFigure:none -right;
+changeBg:wanping_room.png -next;
+changeFigure:wanping_smile.png -left -next -transform={"position":{"x":50},"scale":{"x":2.2,"y":2.2}};
+婉嬪:聽說娘娘初入宮，尚未適應宮中環境。今日邀娘娘來，是想結交，也想提醒您;
+後宮，不比想像中安穩。因為大家都為了成為皇貴妃而拚了命。;
+changeFigure:main_half .png -right -next -transform={"position":{"x":50}};
+魏笙芷:(來了，這款破遊戲的設定，每隔一段時間就出現隨機事件逼你做選擇，做對選擇就有機會升遷，而做錯選擇就會死亡...看來我得好好思考一下);
+魏笙芷:(這婉嬪娘娘笑得那麼溫柔，是小怪還是大Boss？不過既然邀請我，總得回應一下。);
+changeFigure: -left -next;
+changeFigure:none -right -next;
+choose:「哎呀，婉嬪娘娘說的是，我會萬分注意的」:YesOnePin.txt|「乾妳什麼事，妳住海邊嗎?」:NoOnePin.txt;
