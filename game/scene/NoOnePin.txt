@@ -12,5 +12,5 @@ changeFigure: -left -next;
 changeFigure: -right -next;
 changeBg:kill_be.png -next;
 :次日，婉嬪心有怨恨，派人暗殺你。;
-intro:【死亡成就 : 怎麼有刀插在我身上】| -hold -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+intro:【死亡成就 : 怎麼有刀插在我身上】|點擊任意位置返回主頁面 -hold -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
 end;
