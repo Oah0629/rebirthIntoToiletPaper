@@ -1,0 +1,15 @@
+
+changeFigure:emperor_eyebrown.png -next -transform={"scale":{"x":0.95,"y":0.95}};
+:你垂下眼，不急著辯解。|皇帝微微挑眉，冷聲道：;
+皇帝 :「我早已派人私下調查。婉嬪，你可知罪？」;
+changeFigure: -next;
+changeFigure:emperor_eyebrown.png -left -next -id=emperor -transform={"scale":{"x":0.93,"y":0.93}};
+changeFigure:wanping_white.png -right -next -id=wanping -transform={"position":{"x":170}};
+:婉嬪臉色慘白，當場跪倒。|原來皇帝早已洞悉全局，只等婉嬪露出破綻。| |;
+changeFigure: -next -id=emperor;
+changeFigure: -next -id=wanping;
+changeFigure:main_fancy (1).png -next -transform={"position":{"y":80},"scale":{"x":0.95,"y":0.95}};
+:你被加封——芷貴妃|婉嬪被打入冷宮，再無翻身之日。|;
+:宮門在她身後轟然闔上，而你站在陽光下，風頭無兩。;
+intro:【獲得存活成就：晉封貴妃】|未完待續，敬請期待... -hold -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+end;

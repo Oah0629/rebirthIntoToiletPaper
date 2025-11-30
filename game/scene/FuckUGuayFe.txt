@@ -5,7 +5,7 @@ changeFigure:main_9.png -next -transform={"position":{"y":85}};
 魏笙芷:貴妃娘娘既想看本事，那……;
 不如讓我敬您三杯？| 以表我對娘娘的大大「敬畏」。;
 changeFigure:none -right -next;
-:賓妃們哄笑，貴妃臉色大變。;
+:嬪妃們哄笑，貴妃臉色大變。;
 changeFigure:emperor_interesting.png -next;
 皇帝:哎呦，這女人挺有意思的。;
 changeFigure: -next;

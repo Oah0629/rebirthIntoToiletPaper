@@ -1,7 +1,7 @@
 intro:某日，鸚哥正在幫你整理房間... -hold -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
 changeBg:bg_YongHoGung.png -next;
 setTransform:{"position":{"y":100},"scale":{"x":0.9,"y":0.9}} -next -duration=0 -target=fig-left;
-changeFigure:f_main/f_main_wakeup_bigeye.png -right -next -transform={"position":{"y":100},"scale":{"x":0.9,"y":0.9}};
+changeFigure:f_main_wakeup_bigeye.png -right -next -transform={"position":{"y":100},"scale":{"x":0.9,"y":0.9}};
 鸚哥:娘娘您起床第一件事就該#)@(*&^*&^@#&(，|這樣才可以確保您的皮膚狀況保持在完美狀態 -left;
 然後#*(%*&#()@&^&#(!)(#*&^$*&@((@)&# -left;
 而且!^@%!)(*&^%$%^&*(&$$$$$@#$%^&*(&$%^ -left;
@@ -10,13 +10,13 @@ changeFigure:f_main/f_main_wakeup_bigeye.png -right -next -transform={"position"
 鸚哥:還有就是#$%^&*(*&^%^&*( -left;
 旁白:他還沒講完...;
 魏笙芷:哎~想當初我媽媽也總是這樣，|邊幫我整理房間，邊撈叨 -right;
-changeFigure:f_main/f_main_wakeup_normal.png -right -next -transform={"position":{"y":100},"scale":{"x":0.9,"y":0.9}};
+changeFigure:f_main_wakeup_normal.png -right -next -transform={"position":{"y":100},"scale":{"x":0.9,"y":0.9}};
 不知道我離開後媽媽過得好不好... -right;
 鸚哥:對了，娘娘|住隔壁的嬪妃寄了封邀請函給您，邀您一同喝茶 -left;
 不知道您有沒有興趣， -left;
 鸚哥我呀，|認為適當的結交盟友也是必要的呦 -left;
 choose:接受邀約:选择场景文件|心不甘情不願地接受邀約:选择场景文件;
-changeFigure:f_main/f_main_wakeup_bigeye.png -right -next -transform={"position":{"y":100},"scale":{"x":0.9,"y":0.9}};
+changeFigure:f_main_wakeup_bigeye.png -right -next -transform={"position":{"y":100},"scale":{"x":0.9,"y":0.9}};
 魏笙芷:好吧，那你幫我回覆一下吧 -right;
 鸚哥:好的娘娘，鸚哥這就去辦~;
 changeScene:part3.txt;

@@ -1,0 +1,15 @@
+
+changeBg:emperorGung.png;
+:嫻貴妃因毒害同宮，被貶為「答應」。|皇帝對你甚是倚重，甚至賞賜異常優渥。 -fontSize=large;
+changeFigure:wanping_lie.png -next;
+:然而就在大勢底定之際——|婉嬪卻站出來：;
+婉嬪:「皇上，臣妾覺得……下毒之人，其實是她。」|;
+changeFigure:none -next;
+changeFigure:wanping_lie.png -left -next -transform={"position":{"x":-150}} -id=lie;
+changeFigure:main_shock.png -right -next -transform={"position":{"x":-180,"y":35},"scale":{"x":1.6,"y":1.6}} -id=shock;
+:她指向你。|你心中大震——婉嬪竟反咬一口。|;
+changeFigure:none -next -id=lie;
+changeFigure:none -next -id=shock;
+:原來她並不打算與任何人分享權勢。|宮中再度陷入詭風。|;
+:你選擇|;
+choose:提供證據反擊 :FightBack.txt|不做表示  :DoNothing.txt;

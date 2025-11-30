@@ -1,0 +1,19 @@
+
+changeFigure:none -next;
+changeFigure:main_note_angry.png -right -next -transform={"position":{"x":-300,"y":100}};
+changeFigure:wanping_freeze.png -left -next -transform={"position":{"x":400},"scale":{"x":2.2,"y":2.2}};
+changeBg:wanping_room.png -next;
+魏笙芷 :（帶著紙條，闖入婉嬪宮中） |;
+choose:「婉嬪，這紙條上的話，你可知道？」:选择场景文件|「X，你這瘋婆子，我真心誠意的對待你，但你卻這樣對待我？」:选择场景文件;
+changeFigure:wanping_fake.png -left -next;
+婉嬪 :（臉色一變，但下一秒又恢復鎮定） -notend;
+changeFigure:wanping_freeze.png -left -transform={"position":{"x":400},"scale":{"x":2.2,"y":2.2}};
+婉嬪:看來你也收到這紙條了，我正想找你討論此事 |;
+changeFigure:main_surprised.png -right -next -transform={"position":{"x":-300,"y":100},"scale":{"x":0.9,"y":0.9}};
+魏笙芷 :也？這是什麼意思|;
+changeFigure:main_serious.png -right -next -transform={"position":{"x":-300,"y":50},"scale":{"x":1.7,"y":1.7}};
+婉嬪:其實在前幾日我便有觀察到，有人在到處侮蔑我的為人，|於是我便命人調查，殊不知調查此事，我也是失去了幾位得力部下，;
+婉嬪 :而這幕後，便是嫻貴妃在操弄。 ;
+:她言詞懇切，似乎並非作假。|原來嫻貴妃想藉你之手對付婉嬪，再順便削弱皇上對你們二人的信任。;
+:你與婉嬪四目交接，第一次產生了同一陣線的默契。 |;
+changeScene:part6.txt;

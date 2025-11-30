@@ -1,0 +1,12 @@
+
+changeFigure:none -right -next;
+changeFigure:none -left -next;
+changeBg:bg_YongHoGung.png -next;
+changeFigure:cake.png -next -transform={"scale":{"x":0.7,"y":0.7}};
+:次日，嫻貴妃突然賞了一盒精緻糕點至你宮中，姿態異常親切。 |;
+changeFigure:none -next;
+changeFigure:xian_evil.png -left -next -transform={"position":{"y":90}};
+嫻貴妃:答應近日受驚，這是本宮特意賞的補氣糕。;
+changeFigure:main_serious.png -right -next -transform={"position":{"x":-300,"y":120},"scale":{"x":1.7,"y":1.7}};
+魏笙芷:（這人就是婉嬪說的幕後推手！）|;
+choose:拒絕嫻貴妃好意 :RefuseGuayFe.txt|先通告婉嬪 :TellOnePin.txt|不疑有他，直接享用 :JustEat.txt;

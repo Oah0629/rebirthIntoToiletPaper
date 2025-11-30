@@ -8,5 +8,5 @@ changeBg:bg_lonelyDie.png -next;
 :「娘娘，您的存款我們已轉得差不多了。接下來……就不需要您了。」|語畢，便聽到他漸遠的腳步聲。 -fontSize=large;
 :無論你怎麼求救，都無人尋你，無人記得你。|彷彿你不曾存在一樣 -fontSize=large;
 :五天後，你在黑暗中默默死去。 -fontSize=large;
-intro:獲得【死亡成就：孤獨死亡】 -hold -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+intro:【死亡成就：孤獨死亡】|點擊任意位置返回主頁面 -hold -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
 end;

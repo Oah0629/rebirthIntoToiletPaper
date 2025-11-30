@@ -1,0 +1,20 @@
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+:你沒有輕舉妄動，假意答應嫻貴妃晚點享用糕點，實則先將糕點送往婉嬪處。;
+changeBg:wanping_room.png -next;
+changeFigure:main_serious.png -right -next -transform={"position":{"x":-300,"y":120},"scale":{"x":1.7,"y":1.7}};
+changeFigure:wanping_needle.png -left -next;
+婉嬪:我試給你看。 |;
+changeFigure:none -right -next;
+changeFigure:needle_normal.png -next;
+changeFigure:none -left -next;
+:（拿起銀針插入糕點，針尖瞬間發黑。） -notend;
+changeFigure:needle_black.png;
+:這糕點...有毒！|;
+changeBg:emperorGung.png -next;
+changeFigure:none -next;
+:你們決定將此事稟告皇帝。|;
+changeFigure:emperor_angry.png -next;
+:皇帝震怒，下令徹查。 ;
+changeScene:part7.txt;
