@@ -18,7 +18,7 @@ choose:「這一定有鬼，我得通報內務府」:选择场景文件|「哎�
 changeFigure:none -left -next;
 changeFigure:none -right -next;
 intro:你察覺異狀並通報內務府。 -hold -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
-changeBg:bg_guan2GE.png -next;
+changeBg:bg_guan2GE_new.png -next;
 :內務府派出影衛跟蹤官兒，成功掌握他與嬪妃密會、轉移銀兩的證據。 -fontSize=large;
 證據確鑿後，內務府立刻將官兒與涉案者逮捕。 -fontSize=large;
 翌日，你的侍從被正式更換為——鸚哥。 -fontSize=large;

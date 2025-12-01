@@ -9,7 +9,7 @@ changeFigure:none -left -next;
 changeBg:coldgung.png -next;
 changeFigure:main_coldgung.png -next -transform={"position":{"y":100},"scale":{"x":0.9,"y":0.9}};
 :當天晚上，你被以「怠慢貴妃」之罪名——|打入冷宮。|;
-changeBg:toocold.png -next;
+changeBg:toocold_new2.png -next;
 changeFigure:none -next;
 :你孤身冷牆，凍了三個冬夜。 |;
 intro:【死亡成就 : 自我認同是根冰棒】  |點擊任意位置返回主頁面 -hold -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;

@@ -9,7 +9,7 @@ changeFigure:none -right -next;
 changeFigure:emperor_interesting.png -next;
 皇帝:哎呦，這女人挺有意思的。;
 changeFigure: -next;
-changeBg:bg_toxic.png -next;
+changeBg:bg_toxic_new.png -next;
 :爾後，貴妃不滿你的作為，暗中在你的吃食裡下毒，你死有餘辜。;
 intro:【死亡成就 : 別喝離開自己視線的茶】|點擊任意位置返回主頁面 -hold -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
 end;
