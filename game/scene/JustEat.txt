@@ -8,7 +8,9 @@ changeFigure:main_poisoned.png -next -transform={"position":{"x":-100,"y":350},"
 changeFigure:none -left -next;
 :一炷香後，你倒在地上，口吐黑血。|;
 changeFigure: -next;
-changeBg:bg_toxic.png -next;
+bgm:none -enter=1000;
+bgm:bgm_game_over.mp3 -enter=1000;
+changeBg:bg_toxic_new.png -next;
 :被毒死時，你最後想到的是——|嫻貴妃笑得太早了，你卻看得太晚。;
-intro:【死亡成就 : 好吃是好吃，就是有點毒】 |點擊任意位置返回主頁面 -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+intro:【死亡成就 : 好吃是好吃，就是有點毒】 |點擊任意位置返回主頁面 -hold -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
 end;

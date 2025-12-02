@@ -8,6 +8,8 @@ changeFigure:evil_wanping.png -next;
 changeFigure:emperor_not_good (1).png -next;
 :你啞口無言。|皇帝臉色沉到極點：;
 皇帝 :「反咬同宮，欺君之罪——杖斃。」;
+bgm:none -enter=1000;
+bgm:bgm_game_over.mp3 -enter=1000;
 changeFigure:选择立绘文件 -next;
 changeBg:emperorGung_dark.png -next;
 :你膝下求饒的聲音，消失在靜冷的大殿。;

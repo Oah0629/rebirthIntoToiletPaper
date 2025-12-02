@@ -1,6 +1,7 @@
 ;第三幕 — 風起的茶會
-changeFigure:none -left;
-changeFigure:none -right;
+intro:幾日後，你與鸚哥前往婉嬪的住所，|與婉嬪共進茶點 -hold -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+changeFigure: -left -next;
+changeFigure: -right -next;
 changeBg:wanping_room.png -next;
 changeFigure:wanping_smile.png -left -next -transform={"position":{"x":50},"scale":{"x":2.2,"y":2.2}};
 婉嬪:聽說娘娘初入宮，尚未適應宮中環境。今日邀娘娘來，是想結交，也想提醒您;

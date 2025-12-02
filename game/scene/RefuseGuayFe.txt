@@ -6,6 +6,8 @@ changeFigure:xian_angry.png -left -next -transform={"position":{"y":100}};
 嫻貴妃:（怒聲喝斥）|不收本宮的賞，就是看不起本宮？;
 changeFigure:none -right -next;
 changeFigure:none -left -next;
+bgm:none -enter=1000;
+bgm:bgm_game_over.mp3;
 changeBg:coldgung.png -next;
 changeFigure:main_coldgung.png -next -transform={"position":{"y":100},"scale":{"x":0.9,"y":0.9}};
 :當天晚上，你被以「怠慢貴妃」之罪名——|打入冷宮。|;

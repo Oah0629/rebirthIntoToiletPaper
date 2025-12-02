@@ -2,7 +2,9 @@ changeFigure: -left -next;
 changeFigure: -right -next;
 
 intro:你選擇無視官兒的異樣... -hold -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
-changeBg:bg_lonelyDie.png -next;
+changeBg:lockinwarehouse.png -next;
+bgm: -enter=1000;
+bgm:bgm_game_over.mp3 -enter=1000;
 :幾個月後，他將你誘入偏僻倉庫，反鎖。 -fontSize=large;
 :門外傳來他冰冷的聲音： -fontSize=large;
 :「娘娘，您的存款我們已轉得差不多了。接下來……就不需要您了。」|語畢，便聽到他漸遠的腳步聲。 -fontSize=large;

@@ -1,11 +1,12 @@
 ;
-intro:宮燈搖曳。|宴會後返宮，鸚哥替你卸下髮飾，一邊碎唸。 -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
-changeBg:YongHoGung_night.png;
+intro:宮燈搖曳。|宴會後返宮，鸚哥替你卸下髮飾，一邊碎唸。 -hold -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+changeBg:YongHoGung_night.png -next;
 changeFigure:inger_excited.png -next;
 鸚哥:娘娘今天可真威風！貴妃臉都綠了！ -id;
 choose:我那叫被生活逼的……我能不怕死嗎？:选择场景文件|（哼，他們用的那幾招在我前世玩過的遊戲可都出現過了）:选择场景文件;
 changeFigure:shadow.png -next;
-:忽然，一名黑影從窗外掠過。你與鸚哥都僵住。|黑影迅速抛下一個小紙包，消失在夜色之中。|;
+:忽然，一名黑影從窗外掠過。你與鸚哥都僵住。||;
+:黑影迅速抛下一個小紙包，消失在夜色之中。;
 changeFigure: -next;
 changeFigure:f_main_wakeup_panic.png -right -next;
 魏笙芷:……這宮裡的人就不能從門走嗎？;

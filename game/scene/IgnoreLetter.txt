@@ -4,6 +4,8 @@ changeFigure:f_main_wakeup_bigeye.png -next;
 魏笙芷 :風聲罷了，不可輕信。;
 changeFigure:none -next;
 :然而接下來的幾日，婉嬪身邊的宮女換了兩批，出入的人愈來愈奇怪。|你仍認為「觀察」比「行動」更安全。;
+bgm:none -enter=1000;
+bgm:bgm_game_over.mp3 -enter=1000;
 changeBg:kill_be_new.png -next;
 :直到某天夜裡，你剛踏出殿門，一把冰冷的匕首抵上你的背。|「主子說了——紙條你不聽，就只能死。」|;
 :你甚至來不及呼救，黑影一刀封喉。;
