@@ -1,6 +1,6 @@
 
 changeFigure:main_firm.png -next -transform={"position":{"x":-80,"y":85},"scale":{"x":0.9,"y":0.9}};
-:魏笙芷冷聲道：;
+:你大聲反駁著;
   魏笙芷:「臣妾有證據！試毒的銀針便可作證！」;
 changeFigure:none -next;
 changeFigure:evil_wanping.png -next;
@@ -15,6 +15,6 @@ changeBg:emperorGung_dark.png -next;
 :你膝下求饒的聲音，消失在靜冷的大殿。;
 changeFigure:taijian_stick.png -right -next -transform={"position":{"x":-130},"scale":{"x":0.9,"y":0.9}} -id=taijian;
 changeFigure:main_hurt.png -left -next -transform={"scale":{"x":0.95,"y":0.95}} -id=main;
-:太監把你拖到宮外，以亂棍打死，你死不瞑目|;
+:太監把你拖到宮外，以亂棍打死，你死不瞑目| -vc_scream.mp3;
 intro:【死亡成就：來玩太鼓達人，我當達人，你當太鼓】|點擊任意位置返回主頁面 -hold -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
 end;

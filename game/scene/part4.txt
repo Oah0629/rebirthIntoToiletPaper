@@ -1,6 +1,8 @@
 ;第四幕 — 御花園夜宴
-changeBg:garden_night.png -next;
-:馬上迎來你穿越後首次的大型宮宴。|也是所有玩家最容易翻車的地方。;
+intro:時間來到一年一度的年末宮宴 -hold -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+playEffect:vc_crowd.mp3 -id=crowd;
+changeBg:garden_night.png;
+:馬上迎來你穿越後首次的大型宮宴。|也是所有玩家最容易翻車的地方。 -vc_crowd.mp3;
 changeFigure:emperor.png -next;
 皇帝:(環顧四周);
 changeFigure:inger_excited.png -next;
@@ -10,5 +12,6 @@ changeFigure: -next;
 :就在此時，你的眼角餘光瞄到|宮裡最美的女人，也是皇帝最寵愛的嫻貴妃，正拿著酒杯步步朝你走近;
 changeFigure:xian_9.png -next -transform={"position":{"y":120}};
 嫻貴妃:魏答應初入宮，理當向本宮敬酒。|要不要讓大家瞧瞧你的本事？;
+playEffect:none -id=crowd;
 :（眾目齊看，你站在宴會中央。）;
 choose:溫柔敬酒 → 以退為進，無害路線:OkLaGuayFe.txt|機智反擊 → 立威，但樹敵:FuckUGuayFe.txt;

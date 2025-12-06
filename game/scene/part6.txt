@@ -1,9 +1,10 @@
 
+intro:就在與婉嬪達成共識的隔天... -hold -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
 changeFigure:none -right -next;
 changeFigure:none -left -next;
 changeBg:bg_YongHoGung.png -next;
 changeFigure:cake.png -next -transform={"scale":{"x":0.7,"y":0.7}};
-:次日，嫻貴妃突然賞了一盒精緻糕點至你宮中，姿態異常親切。 |;
+:嫻貴妃突然賞了一盒精緻糕點至你宮中，姿態異常親切。 |;
 changeFigure:none -next;
 changeFigure:xian_evil.png -left -next -transform={"position":{"y":90}};
 嫻貴妃:答應近日受驚，這是本宮特意賞的補氣糕。;

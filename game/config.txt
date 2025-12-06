@@ -1,6 +1,7 @@
-Game_name:重生;
+Game_name:清宮風雲錄;
 Game_key:ec9ddcc81534c48;
-Title_img:bg_mainpage2.png;
+Title_img:bg_main_old.png;
 Title_bgm:bgm_game_over.mp3;
 Textbox_theme:imss;
-Package_name:hihi;
+Package_name:;
+Game_Logo:;
